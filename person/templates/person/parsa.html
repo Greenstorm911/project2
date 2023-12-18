@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <title>what i learnt from first day of html</title>
+        <script>
+            function greet_to_mmd()
+            {
+                let name = document.querySelector('#name').value;
+                alert("fck u  " + name);
+            }
+        </script>
+    </head>
+    <body style=" text-align: center">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <style>
+            .small
+            {
+                font-size: small;
+            }
+        </style>
+        <h1> tag start</h1>
+        <h2>hello {{username}}</h2>
+        <p>it starts with !DOCTYPE html </p>
+        <h2> head tag </h2>
+        <p> in head tag you should use title tag too </p>
+        <h1> body tags </h1>
+        <ol>
+            <li>br tag: only opens to use enter</li>
+            <li>p tag: its better to use p tag also you can use h1 h2 h3 h4 h5 and h6 to use headings</li>
+            <li>ol: order list assin a number to each li tag in it</li>
+            <li>ul: unorder list only seprate with circle</li>
+        </ol>
+        <form    action="https://www.google.com/search" method="get">
+            <input name="q" type="search" autocomplete="off" autofocus placeholder="text">
+            <!--input type="submit" value="google search"-->
+            <button class="btn btn-success" type="submit" >google search</button>
+        </form>
+        <br>
+        <form onsubmit="greet_to_mmd(); return false;">
+            <input type="text" id="name" placeholder="name" autocomplete="off">
+            <button class="btn btn-success" type="submit" >Greet</button>
+        </form>
+        <h1>example of loading a pictue and how to make one</h1>
+        <img  alt="cyberpunk image" src="htmlimgtest.png" width="700" height="400">
+        <p> img alt="cyberpunk image" src="htmlimgtest.png" alt is the name of the picture and in surce u can also put a link </p>
+        <h1 >example of a phone table and how to make one</h1>
+        <table >
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>0</td>
+                <td>#</td>
+            </tr>
+        </table>
+        <p>write a table tab then make table row useing tr and then write each data in table data useing td </p>
+        <p class="small">check <a href="https://www.w3schools.com/tags/tag_video.asp">video tag in html5</a> that is in the ancer tag a href="link">name of what it shows to click close the a tab and close it again</p>
+        <p>copyright &#169 parsa nazer</p>
+    </body>
+</html>
